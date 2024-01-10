@@ -1,0 +1,11 @@
+
+
+:root{
+ --display-font: "Playfair Display", serif;
+  --seconday-font: 'Roboto', sans-serif;
+}
+h1 {
+  font-family:var(--display-font)
+
+}
+
