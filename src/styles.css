@@ -24,21 +24,33 @@ header h1 {
   line-height: 1;
   margin: 0 0 10px;
 }
+h2,h3,h4,h5{
+ font-family: var(--seconday-font);
+}
+h3,h2{
+letter-spacing: 5px;
+}
 header h2 {
-  font-family: var(--seconday-font);
   font-size: 40px;
   font-weight: 400;
   line-height: 1;
   margin: 0 0 30px;
 }
+main h2{
+font-size: 13px;
+font-weight: bold;
+
+text-transform: capitalize;
+margin-top: 80px;
+color:#AEAEAE;
+}
 header h3 {
-  letter-spacing: 5px;
-  font-family: var(--seconday-font);
   font-size: 24px;
   font-weight: 900;
  
 }
-header a{
+ header a,
+ main a{
   font-family: var(--seconday-font);
   font-size: 16px;
   font-weight: 500;
@@ -60,6 +72,14 @@ footer {
   background-size: cover;
   padding: 100px;
 }
+.embed-favourite-songs{
+  width: 100%;
+  
+}
+.favourite-songs-description{
+  background:#f5f5f5; 
+ padding: 15px;
+}
 .grid{
   display: grid;
   grid-gap: 50px;
@@ -71,6 +91,10 @@ footer {
 .grid-3-col-footer{
    grid-template-columns: 1fr 2fr 2fr;
   }
+  .grid-3-col{
+    grid-template-columns: 1fr  1fr 1fr;
+    
+  }
   
 
 
@@ -79,37 +103,69 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
-main h2{
-font-size: 13px;
-font-weight: bold;
-font-family: var(--seconday-font);
-letter-spacing: 5px;
-display: inline-block;
-background-color:#FFFFFF;
-text-transform: capitalize;
-margin-top: 80px;
-color:#AEAEAE;
 
- 
-
-
-}
 main h3{
   font-size: 48px;
   color:#272044;
   margin: 0;
   font-family: var(--display-font);
+  line-height: 1.2;
 }
 main p{
   font-size: 16px;
   font-family: var(--seconday-font);
   color:#272044;
+ line-height: 1.5;
+ 
+}
+main h4{
+ 
+font-size: 24px;
+font-weight: 700;
+line-height: 1;
+margin: 20px 0 0;
+color: #272044;
+
 
 }
+main h5{
+font-size: 16px;
+font-weight: 700;
+line-height: 1;
+text-align: left;
+margin: 0;
+}
+
 main .queen-img{
   max-width: 100%;
   filter: brightness(36%) contrast(108%);
 }
+.favourite-songs{
+  background-image: url(../images/queen-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ padding: 50px;
+}
+.favourite-songs-header{
+  text-align: center;
+  margin: 0 0 30px;
+  
+}
+.backround{
+  background-color: #f5f5f5;
+  margin-top: 30px;
+}
+.btn-main{
+ 
+ 
+  display: block;
+ margin: 0 auto;
+
+}
+.text-center{
+  text-align: center;
+}
+
 
 footer ul {
   list-style: none;
