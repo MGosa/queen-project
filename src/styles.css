@@ -220,6 +220,9 @@ footer p {
     margin:0 auto;
     padding: 0 15px;
   }
+  .grid-songs{
+    margin: 0;
+  }
   footer {
     padding: 30px 10px;
   }
